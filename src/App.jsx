@@ -13,10 +13,10 @@ function App() {
    <BrowserRouter>
      <Header />
      <Routes>
-       <Route path='/' element={<MainPage />} />
-       <Route path='/about' element={<AboutPage />} />
-       <Route path='/services' element={<ServicesPage />} />
-       <Route path='/portfolio' element={<PortfolioPage />} />
+       <Route path='/Simple_Route' element={<MainPage />} />
+       <Route path='/Simple_Route/about' element={<AboutPage />} />
+       <Route path='/Simple_Route/services' element={<ServicesPage />} />
+       <Route path='/Simple_Route/portfolio' element={<PortfolioPage />} />
        <Route path='*' element={<ErrorPage />} />
      </Routes>
    </BrowserRouter>
