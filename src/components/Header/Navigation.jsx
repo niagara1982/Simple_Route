@@ -16,11 +16,11 @@ function Navigation() {
       <nav className='nav' role='navigation'>
         <ul className={open ? 'visible' : ''}>
           <li>
-            <Link to='/' className={`navLink ${location.pathname === '/' ? 'active' : ''}`}>Головна</Link>
+            <Link to='/Simple_Route' className={`navLink ${location.pathname === '/' ? 'active' : ''}`}>Головна</Link>
           </li>
           <li>
             <Link
-              to='/about'
+              to='/Simple_Route/about'
               className={`navLink ${
                             location.pathname === '/about' ? 'active' : ''
               }`}
@@ -30,7 +30,7 @@ function Navigation() {
           </li>
           <li>
             <Link
-              to='/services'
+              to='/Simple_Route/services'
               className={`navLink ${
               location.pathname === '/services' ? 'active' : ''
               }`}
@@ -40,7 +40,7 @@ function Navigation() {
           </li>
           <li>
             <Link
-              to='/portfolio'
+              to='/Simple_Route/portfolio'
               className={`navLink ${
               location.pathname === '/portfolio' ? 'active' : ''
               }`}
