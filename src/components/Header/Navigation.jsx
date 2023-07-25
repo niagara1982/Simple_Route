@@ -20,7 +20,7 @@ function Navigation() {
           </li>
           <li>
             <Link
-              to='/Simple_Route/about'
+              to='/Simple_Route/about/'
               className={`navLink ${
                             location.pathname === '/Simple_Route/about/' ? 'active' : ''
               }`}
