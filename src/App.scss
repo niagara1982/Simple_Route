@@ -1,0 +1,28 @@
+:root {
+    --light: #fff;
+    --yel: #faff00;
+
+    --bg-light: #6d60ff;
+    --bg-dark: #09006e;
+
+    --dbg-light: #5f54db;
+    --dbg-dark: #070055;
+}
+
+body {
+    /* header light theme */
+	.header,
+	.nav ul {
+        background: var(--bg-light);
+    }
+
+h1 {
+        text-align: center;
+        margin: 100px 0;
+    }
+}
+
+.wrapper {
+    padding: 0 30px;
+    margin: 0 auto;
+}

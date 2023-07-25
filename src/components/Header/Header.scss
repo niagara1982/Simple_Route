@@ -1,0 +1,22 @@
+.header {
+    .headerBody {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 0;
+        
+        .headerLogo {
+            font: {
+                weight: 700;
+                size: 24px;
+            }
+            color: var(--light);
+            
+            span {
+                color: var(--yel);
+            }
+        }
+    }
+}
+
+@import url('./Navigation.scss');
